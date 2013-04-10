@@ -7,7 +7,7 @@ from django.db import models
 from django_images.models import Image as BaseImage
 from taggit.managers import TaggableManager
 
-from ..users.models import User
+from django.contrib.auth.models import User
 
 
 class ImageManager(models.Manager):
